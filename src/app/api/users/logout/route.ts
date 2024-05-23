@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 connect();
 
-export async function Get(request:NextRequest) {
+export async function GET(request:NextRequest) {
     try {
         const response = NextResponse.json({
             message:"Logout Successfully",
